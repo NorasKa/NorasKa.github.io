@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pl-PL" 
+	<meta charset="iso-8859-2"/>
+	<meta name="viewport" content=width=device-device-width, initial-scale=1.0"/>
+<head>
+<title> MOja pierwsza strona www </title>
+</head>
+<body style="background-color:lightgray;">
+	<div style="background-color:gray;">
+		<h1> <center> PSI - Karol Noras </center> </h1>
+	</div>
+	
+	<div style="float:left; width:15%; height:550px; background-color:lightpink;">
+		<h3> html </h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> Kolory </a> <br />
+			<a href="nauczyciele.html"> nauczyciele </a> <br />
+			<a href="zdjecia.html"> zdjęcia</a> <br />
+			<a href="tabele.html"> tabele</a> <br />
+			<a href="tabela-Noras.html"> tabele na ocene</a> <br />
+			<a href="listy.html"> Listy</a> <br />
+			<a href="Noras_lista.html"> Listy na ocene </a> <br />
+			<a href="mapy.html"> mapa odsyłaczy</a> <br />
+			<a href="formularz.html"> mapa odsyłaczy</a> <br />
+	</div>
+	<div style="float:right; width:85%; background-color:lightgray; border-style:solid none solid none; border-color:grey;">
+	
+	<form action="onclick" method="post" ectype="text/plain">
+	<table>
+	<tr>
+		<td><a> imie i nazwisko" </a> </td><td><input type="text" name="imie" maxlength="20" id="imie"/></td>
+	</tr> <tr>	
+		<td><a> adress e-mail:</a> </td><td><input type="text" name="email" maxlength="20" id="email"/></td>
+	<tr>	
+		<td><a> hasło:</a> </td><td><input type="password" name="email" maxlength="20" id="email"/></td>
+	</tr>	
+	</table>
+	
+	<p><input type="radio"  name="gender" id="male"  value="mezczyzna" > 
+	<label for="male"> mężczyzna </label> <br />
+	<input type="radio"  name="gender" id="female"  value="kobieta" >
+	<label for="female"> kobieta </label>
+	</p>
+	
+	
+	
+	<input type="checkbox"  name="lang" id="ang"  value="angielski" checked>
+	<label for="ang"> angielski</label> <br />
+	<input type="checkbox"  name="lang" id="ger"  value="niemiecki" >
+	<label for="ger"> niemiecki</label> <br />
+	<input type="checkbox"  name="lang" id="esp"  value="hiszpanski" >
+	<label for="esp"> hiszpański</label> <br />
+	
+	
+	<select name="owoce" size="5" multiple>
+		<optgroup label="ULUBIONE OWOCE">
+			<option value="truskawki"> Truskawki </option>
+			<option value="Maliny"> Maliny </option>
+			<option value="Arbuzy"> Arbuzy</option>
+		</optgroup>
+	</select>
+	
+	<p><input list="blok" name="przegladarki" />  
+	  <datalist id="blok">
+		
+    		<option value="Internet Explorer">
+  		<option value="Firefox">
+	 	<option value="Chrome">
+		<option value="Opera">
+		<option value="Safari">
+		<option value="OperaGX">
+		<option value="Microsoft Edge">
+		<option value="DuckDuckgo">
+		<option value="Brave">
+	  </datalist>   <input type="submit" name="przeglądarki">  </p>
+	  
+	<select name="dni" size="5" multiple>
+		<optgroup label="DNI WOLNE">
+			<option value="SOBOTA"> SOBOTA</option>
+			<option value="NIEDZIELA"> NIEDZIELA </option>
+		</optgroup>
+		<optgroup label="DNI ROBOCZE">
+			<option value="PONIEDZIAŁEK"> PONIEDZIĄŁEK </option>
+			<option value="WTOREK"> WTOREK</option>
+			<option value="ŚRODA"> ŚRODA </option>
+			<option value="CZWARTEK"> CZWARTEK</option>
+			<option value="PIĄTEK"> PIĄTEK</option>
+			
+		</optgroup>
+	</select><br />
+	
+	<textarea cols="50" rows="6">
+	Jan Niezbędny
+	ul. Nieznana 3
+	40-001 Katowice
+	Polska
+	</textarea>
+	
+	<textarea cols="50" rows="6">
+	wprowadź swój adres
+	</textarea>
+	<br /> <hr />
+	<input type="reset"/> <br />
+	<input type="button" name="leavel" value="Opusc stronę!"/> <br />
+	<button type="button" name="Kup" id="buynow" value="kupuj teraz!!!" onclick="alert('kupiono 15 ton azbestu')"> Kup teraz!</button><br />
+	
+	<hr />
+	
+	<input type="radio" name="gr_op" value="Podstawowe" accesskey="P" /> Podstawowe [skrót ALT+P] <br />
+	<input type="radio" name="gr_op" value="średnie" accesskey="S" /> Srednie [skrót ALT+S] <br />
+	<input type="radio" name="gr_op" value="Wyższe" accesskey="W" /> Wyższe [skrót ALT+W] </p>
+	
+	<hr />
+	
+	<input type="hidden" name="obrazek" value="fish" />
+	<input type="image" name="obrazek" src="foty/fish.gif" width="250"/> 
+	
+	<hr />
+	
+	<p><input type="submit"  value="wyslij"> <br /></p>
+	<p><input type="reset" value="wyczysc"> <br /></p>
+	<p> PRZYCISKI BUTTON </p>
+	<p><button type="submit"  value="wyslij !"> wyślij</button> <br /></p>
+	<p><button type="reset" value="usuń"> usuń</button><br /></p>
+	<p><button type="reset" value="usuń" style="background-color:red; font: 12pt arial;"> usuń</button><br /></p>
+	
+	<hr />
+	
+	<p><button type="submit"  value="wyslij" ><img src="foty/fish2.gif" width="250"> </button> <br /></p>
+	
+	<hr />
+	
+	<p> Atrybut autofocus automatycznie ustawia kursor w wybranym polu formularza <input name="adres" type="text" autofocus /> </p>
+	 
+	<p> Atrybut autocomplete [on badź off] służy do wyłšczenia badz włączenia autouzupełniania <input name="adres" type="text" autocomplete="on" /> </p> 
+	
+	<p>Lista proponowanych warosci wyswietlana, jako lista rozwijalna
+	<input list="list1" name="lista1" />  
+	<datalist id="list1">
+    	<option value="francuski">
+		<option value="angielsi">
+		<option value="niemiecki
+	</datalist>   <input type="submit" name="lista1"> </p>  <br /> <br /> <hr /> <br /><br />
+	
+
+	
+	TYPY PÓL W HTML5 DO WPROWADZANIA DANYCH: <input type="email" value="nazwa@gmail.com"> - wprowadzenie adresu e-mail <br />
+	<input type="url"> - wprowadzanie adresu URL <br />
+	<input type="number" min="1" max="7" step="1" value="2"> - wprowadzanie liczby calkowitej z podanego przydzialu <br />
+	<input type="date" value="2137-09-16"> - do wprowadzania daty <br />
+	<input type="color" value="#F0F0F0"> - do wprowadzania koloru <br />
+
+	
+	
+	<p> Lista proponowanych wartosci wyswietlana, jako lista rozwijalna.  <input list="blok" name="przegladarki" />  
+	  <datalist id="blok">
+		
+    		<option value="Internet Explorer">
+  		<option value="Firefox">
+	 	<option value="Chrome">
+		<option value="Opera">
+		<option value="Safari">
+		<option value="OperaGX">
+		<option value="Microsoft Edge">
+		<option value="DuckDuckgo">
+		<option value="Brave">
+	  </datalist>  </p> <br /><br /><br /><br />
+	  </form>
+	  element wyjsciowy przedstawia wynik obliczenia<br /><br />
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+			<input type="range" id="a" value="50">
+			+<input type="number" id="b" value="25">
+			=<output name="x" for="a b"></output> <br />
+			<input type="submit">
+		</form>
+	
+	<br/>
+	<input type="text" name="firstname" value="John" disabled> BLOKUJE POLE - NIE DA SIE W NIM PISAC - DISABLED <br />
+	<br />
+	
+	
+	
+	</div>
+	<div style="background-color:yellow; clear:both;"><center> &copy; K.N, October 2024
+	</center> </div>
+</body>
+</html>
