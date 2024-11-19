@@ -1,0 +1,102 @@
+	
+<!DOCTYPE html>
+<html lang="pl-PL" 
+	<meta charset="iso-8859-2"/>
+	<meta name="viewport" content=width=device-device-width, initial-scale=1.0"/>
+<head>
+<title> MOja dwunasta strona www </title>
+</head>
+<body style="background-color:lightgray;">
+	<div style="background-color:gray;">
+		<h1> <center> PSI - Karol Noras </center> </h1>
+	</div>
+	
+	<div style="float:left; width:15%; height:550px; background-color:lightpink;">
+		<h3> html </h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> Kolory </a> <br />
+			<a href="nauczyciele.html"> nauczyciele </a> <br />
+			<a href="zdjecia.html"> zdjęcia</a> <br />
+			<a href="tabele.html"> tabele</a> <br />
+			<a href="tabela-Noras.html"> tabele na ocene</a> <br />
+			<a href="listy.html"> Listy</a> <br />
+			<a href="Noras_lista.html"> Listy na ocene </a> <br />
+			<a href="mapy.html"> mapa odsyłaczy</a> <br />
+			<a href="formularz.html">formularz</a> <br />
+			<a href="Noras_formularz.html">formularz na ocene</a> <br />
+	</div>
+	<div style="float:right; width:85%; background-color:lightblue; border-style:solid none solid none; border-color:grey;">
+	
+	<fieldset>
+	<legend> Adress</legend>
+	<form>
+	<table> <tr> <td>
+	<input type="radio" name="podstawowy"> podstawowy
+	<input type="radio" name="podstawowy"> do wysyłki
+	<input type="radio" name="podstawowy"> korespondencyjny
+	<input type="radio" name="podstawowy"> odbiorcy
+	<br />
+	<p> nazwa: <input type="text" value="Sklep wielobranżowy poligraf"></p>
+	<p> Ulica i numer: <input type="text" value=""></p>
+	<p> kod pocztowy: <input type="text" value="40-671"></p>
+	<p> Miejscowość: <input type="text" value="Katowice"></p>
+	<p> Telefon: <input type="text" value="+48 601 601 601"></p>
+	<p> email: <input type="text" value="info@insert.com"></p>
+	</td><td>
+	<button style="font:20pt arial;" type="submit" name="Wyslij" onclick="alert('Wysłano')"> Wyslij</button> <br />
+	<button style="font:20pt arial;" type="reset" name="Wyslij" onclick="alert('Anulowano')"> Anuluj</button>
+	</tr></table>
+	</fieldset>
+	<fieldset>
+	<legend> Wysyłka </legend>
+	<table border="1">
+	<tr> <td>
+	
+	<p> przesyłka: <select name="przesylka" size="1">
+		<optgroup label="przesylka">
+			<option value="ekonomiczna"/>ekonomiczna
+			<option value="priorytetowa"/>priorytetowa
+			<option value="ekspresowa"/>ekspresowa
+		</optgroup>
+		</select>
+	</p>
+	<p> Waga (g): <input type="text" value="1000"> </p>
+	<p> Gabaryt: <select name="Gabaryt" size="4">
+			<option value="small"/>S (28 x 8 x 64 cm)
+			<option value="medium"/>M (38 x 19 x 64 cm)
+			<option value="large"/>L (41 x 38 x 64 cm)
+			<option value="extra_large"/> XL(60 x 60 x 70 cm)
+		</select>
+	</p>
+	<p> Wartość: <input type="text" value="0,00"> zł</p>
+	<p> Na rachunku <input type="text"> </p>
+	<p> <input type="text"> </p>
+	
+	<p> Data wysyłki: <input type="date" value="2023-10-28">
+	</td><td>
+	<p> <input type="checkbox" name="uwagi" accesskey="z"> Z - żadanie zwrotu/odesłania </p>
+	<p> <input type="checkbox" name="uwagi" accesskey="r"> R - polecenie </p>
+	<p> <input type="checkbox" name="uwagi" accesskey="o" > O - potwierdzenie odbioru </p>
+	<p> <input type="checkbox" name="uwagi" accesskey="w"> W - zadeklarowanie wartości </p>
+	<p> <input type="checkbox" name="uwagi" accesskey="s"> S - sprawdzemoe zawartości </p>
+	<p> <input type="checkbox" name="uwagi" accesskey="k"> K - ostrożnie </p>
+	
+<textarea name="pole_uwangi" rows="10" cols="30">
+Proszę o wpisanie
+wszelkich uwag.
+
+&lt;- / Przesyłka
+	 ekonomiczna
+	 priorytetowa
+	 ekspresowa /
+
+</textarea>
+</td></tr></table>
+	</fieldset>
+	</form>
+	
+	</div>
+	<div style="background-color:yellow; clear:both;"><center> &copy; K.N, October 2024
+	</center> </div>
+</body>
+</html>
