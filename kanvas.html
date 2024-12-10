@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl-PL" 
+	<meta charset="iso-8859-2"/>
+	<meta name="viewport" content=width=device-device-width, initial-scale=1.0"/>
+<head>
+<title> MOja pierwsza strona www </title>
+</head>
+<body style="background-color:lightgray;">
+	<div style="background-color:gray;">
+		<h1> <center> PSI - Karol Noras </center> </h1>
+	</div>
+	
+	<div style="float:left; width:15%; height:750px; background-color:lightpink;">
+		<h3> Html </h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> Kolory </a> <br />
+			<a href="nauczyciele.html"> nauczyciele </a> <br />
+			<a href="zdjecia.html"> zdjęcia</a> <br />
+			<a href="tabele.html"> tabele</a> <br />
+			<a href="tabela-Noras.html"> tabele na ocene</a> <br />
+			<a href="listy.html"> Listy</a> <br />
+			<a href="Noras_lista.html"> Listy na ocene </a> <br />
+			<a href="mapy.html"> mapa odsyłaczy</a> <br />
+			<a href="formularz.html">formularz</a> <br />
+			<a href="Noras_formularz.html">formularz na ocene</a> <br />
+			<a href="Multimedia.html">Multimedia</a> <br />
+			<a href="kanvas.html">Canvas</a> <br />
+		<h3>CSS</h3>
+		
+		<h3>Dokument</h3>
+			<a href="doc/grupa2c.docx" target="new">Listy grupa II w 2c</a> <br />
+			<a href="doc/wydatki2c.xlsx" target="new">Wydatki grupa II w 2c</a> <br />
+		<h3>Linki</h3>
+			<a href="https://www.google.pl/?hl=pl" target="new"><img src="foty/google.png" weight="10%" height="50px"></a> <br />
+			<a href="https://tsi-pai.cba.pl" target="new"><img src="foty/psi.png" weight="10%" height="50px"></a> <br />
+	</div>
+	<div style="float:right; width:85%; background-color:lightgray; border-style:solid none solid none; border-color:grey;">
+	
+	
+	<div style="display:none;"><img id="fish" width="220" height="277" src="foty\fish4.gif"></div>
+	<canvas id="skibidi" width="300" height="200" style="border:1px solid blue;"> BRAK OBSŁUGI SKIBIDI KANVAS</canvas>
+	<script> 
+		var x = document.getElementById("skibidi");
+		var xtx = x.getContext('2d');
+		xtx.moveTo(0,0);
+		xtx.lineTo(300,200);
+		xtx.strokeStyle = "red";
+		xtx.stroke();
+		
+		var k = document.getElementById("skibidi");
+		var kxt = x.getContext('2d');
+		kxt.fillStyle = "green";
+		kxt.fillRect(50,50,70,70);
+		kxt.strokeStyle = "purple";
+		kxt.strokeRect(40,40,90,90)
+		
+		const canvas = document.getElementById("skibidi");
+		const ctx = canvas.getContext("2d");
+		const image = document.getElementById("fish");
+
+		image.addEventListener("load", (e) => {	
+			ctx.drawImage(image, 170, 100, 70, 70);
+		});
+	</script>
+	
+	
+	
+	
+	
+	
+	</div>
+	<div style="background-color:yellow; clear:both;"><center> &copy; K.N, October 2024
+	</center> </div>
+</body>
+</html>
