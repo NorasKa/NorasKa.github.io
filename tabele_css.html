@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pl-PL" 
+	<meta charset="iso-8859-2"/>
+	<meta name="viewport" content=width=device-device-width, initial-scale=1.0"/>
+<head>
+<title> MOja pietnasta strona www </title>
+<style>
+
+
+table.kl1, td.kl1 {
+	border: 1px solid blue;
+	border-collapse: collapse;
+}
+table.one {
+	width: 80%;
+	border-collapse: collapse;
+}
+th.one {
+	border: 3px solid red;
+	background-color: lightblue;
+	padding: 10px;
+}
+td.zwykle {
+	border: 3px solid #00ff00;
+	background-color: #ffff66;
+	padding: 10px;
+}
+table.dwa, table.trzy, table.cztery{
+	border-collapse: collapse;
+}
+th.dwa, td.dwa {
+	border-top: 1px aqua solid;
+	padding: 10px;
+}
+
+tr.dwa:hover {
+	border-top: 1px aqua solid;
+	padding: 10px;
+	background-color:aqua;
+}
+td.trzy, th.trzy{
+	padding: 15px;
+}
+tr.trzy:nth-child(even):hover {
+	background-color: purple;
+}
+tr.trzy:nth-child(odd):hover {
+	background-color: gray;
+}
+td.cztery:nth-child(even):hover {
+	background-color: gray;
+}
+th.cztery:nth-child(even):hover {
+	background-color: aqua;
+}
+td.cztery:nth-child(odd):hover {
+	background-color: purple;
+}
+th.cztery:nth-child(odd):hover {
+	background-color: yellow;
+}
+td.cztery, th.cztery {
+	border-bottom: red dotted 2px;
+	padding: 15px;
+}
+table.cztery1 {
+	width: 50%;
+	border: 1px solid black;
+}
+th.cztery1 {
+	color: red;
+	background-color: yellow;
+}
+td.cztery1 {
+	color: black;
+	background-color: white;
+}
+table.piec {
+	width: 50%;
+}
+th.piec {
+	color: red;
+	background-color: yellow;
+	border: 1px solid black;
+}
+td.piec {
+	color: black;
+	border: 1px solid black;
+}
+th.noc {
+	color: blue;
+	border: 3px inset;
+	background-color: lightpink;
+}
+td.noc, table.noc {
+	color: black;
+	border: 3px maroon outset;
+	padding: 10px;
+}
+table.pink {
+	width: 50%;
+	border-collapse: collapse;
+	padding: 10px;
+}
+th.pink {
+	background-color: pink;
+	color: purple;
+	border: 3px inset;
+	padding: 5px;
+}
+td.pink {
+	border: 3px solid black;
+	padding: 5px;
+}
+table.caption {
+	width: 50%;
+	border: 1px solid aqua;
+	background-color: black;
+	color: white;
+	caption-side: left;
+}
+th.caption {
+	color: blue;
+	background-color: aqua;
+}
+td.caption {
+	border: 1px solid aqua;
+}
+caption.caption {
+	border: aqua;
+	background-color: black;
+	border: 1px solid aqua;
+	width: 80pt;
+	text-align: center;
+}
+.k121 {
+	padding: 3px;
+}
+table.k121 {
+	border-spacing: 5px;
+	border: 1px red solid;
+	background-color: navy;
+	color: white;
+}
+th.k121 {
+	background-color: red;
+}
+td.k121 {
+	border: 1px red solid;
+}
+
+table.k122 {
+	border: 3px red solid;
+	width: 100%;
+	border-spacing: 5px;
+}
+th.k122 {
+	background-color: #00ff66;
+	border: 1px aqua solid;
+}
+td.k122 {
+	background-color: #0066ff;
+	border: 1px aqua solid;
+}
+
+</style>
+</head>
+<body style="background-color:lightgray;">
+	<div style="background-color:gray;">
+		<h1> <center> PSI - Karol Noras </center> </h1>
+	</div>
+	
+	<div style="float:left; width:15%; height:750px; background-color:lightpink;">
+		<h3> Html </h3>
+			<a href="index.html"> STRONA GŁÓWNA </a> <br />
+			<a href="kolory.html"> Kolory </a> <br />
+			<a href="nauczyciele.html"> nauczyciele </a> <br />
+			<a href="zdjecia.html"> zdjęcia</a> <br />
+			<a href="tabele.html"> tabele</a> <br />
+			<a href="tabela-Noras.html"> tabele na ocene</a> <br />
+			<a href="listy.html"> Listy</a> <br />
+			<a href="Noras_lista.html"> Listy na ocene </a> <br />
+			<a href="mapy.html"> mapa odsyłaczy</a> <br />
+			<a href="formularz.html">formularz</a> <br />
+			<a href="Noras_formularz.html">formularz na ocene</a> <br />
+			<a href="Multimedia.html">Multimedia</a> <br />
+			<a href="kanvas.html">Canvas</a> <br />
+		<h3>CSS</h3>
+			<a href="wlasciwosci_css.html">Właściwośći css</a> <br />
+			<a href="identyfikator.html">identyfikator</a> <br />
+			<a href="Noras_css.html">Css na ocene</a> <br />
+			<a href="tabele_css.html">Tabele css</a> <br />
+		<h3>Dokument</h3>
+			<a href="doc/grupa2c.docx" target="new">Listy grupa II w 2c</a> <br />
+			<a href="doc/wydatki2c.xlsx" target="new">Wydatki grupa II w 2c</a> <br />
+		<h3>Linki</h3>
+			<a href="https://www.google.pl/?hl=pl" target="new"><img src="foty/google.png" weight="10%" height="50px"></a> <br />
+			<a href="https://tsi-pai.cba.pl" target="new"><img src="foty/psi.png" weight="10%" height="50px"></a> <br />
+	</div>
+	<div style="float:right; width:85%; background-color:lightgray; border-style:solid none solid none; border-color:grey;">
+	
+	<table class="kl1">
+		<tr class="kl1">
+			<td class="kl1">komórka 1-1</td>
+			<td class="kl1">komórka 1-2</td>
+			<td class="kl1">komórka 1-3</td>
+		</tr class="kl1">
+		<tr>
+			<td class="kl1">komórka 2-1</td>
+			<td class="kl1">komórka 2-2</td>
+			<td class="kl1">komórka 2-3</td>
+		</tr class="kl1">
+		<tr>
+			<td class="kl1">komórka 3-1</td>
+			<td class="kl1">komórka 3-2</td>
+			<td class="kl1">komórka 3-3</td>
+		</tr>
+	</table>
+	<hr />
+	2. Utwórz tabelę z klasa "one" , składajaca się z 5 wierszy i 3 kolumn. Szerokosć 80 % <br />
+	Tabela ma złaczone krawędzie komórek.<br />
+	Osobno zadeklaruj komórki nagłówkowe, które maja obramowanie 3px czerwone, odstęp 10px, duże litery i tło niebieskie.<br />
+	Osobno zadeklaruj komórki "zwykłe", które maja obramowanie 2px zielone, odstęp 10px i tło żółte.<br />
+	Nie zapomnij zadeklarować pustych komórek za pomoca poznanych własciwosci CSS.<br /><br /><br />
+	
+	<table class="one">
+		<tr class="one">
+			<th class="one">NR</th>
+			<th class="one">NAZWISKO I IMIE</th>
+			<th class="one">OBECNOSC</th>
+		</tr>
+		<tr class="zwykle">
+			<td class="zwykle">1</td>
+			<td class="zwykle">Anna Nowak</td>
+			<td class="zwykle">Tak</td>
+		</tr>
+		<tr class="zwykle">
+			<td class="zwykle">2</td>
+			<td class="zwykle">Jan Kowalski</td>
+			<td class="zwykle">Tak</td>
+		</tr>
+		<tr class="zwykle">
+			<td class="zwykle">3</td>
+			<td class="zwykle">Kszysztof Kwiatowski</td>
+			<td class="zwykle">Tak</td>
+		</tr>
+		<tr class="zwykle">
+			<td class="zwykle">4</td>
+			<td class="zwykle">Filip</td>
+			<td class="zwykle">&nbsp;</td>
+		</tr>		
+		<tr class="zwykle">
+			<td class="zwykle">5</td>
+			<td class="zwykle">Maja</td>
+		</tr>
+	</table>
+	<hr />
+	3. Utwórz tabelę z klasa "dwa" . Tabela ma złaczone krawędzie w tabeli. Szerokosć 80 %.
+	W komórkach th i td jest ustawiony odstęp na 8 px oraz border-top w kolorze aqua z 1 px.
+	Dodatkowo ZASTOSOWAŁAM PSEUDOKLASĘ :hover , która ma tło w kolorze aqua. Po najechaniu mysza zobaczysz efekt.
+	<table class="dwa">
+		<tr class="dwa">
+			<th class="dwa">Pierwsze Imię</th>
+			<th class="dwa">Nazwisko</th>
+			<th class="dwa">Zarobek na godz.</th>
+		</tr>
+		<tr class="dwa">
+			<td class="dwa">Peter</td>
+			<td class="dwa">Griffin</td>
+			<td class="dwa">$100</td>
+		</tr>
+		<tr class="dwa">
+			<td class="dwa">Lois</td>
+			<td class="dwa">Griffin</td>
+			<td class="dwa">$150</td>
+		</tr class="dwa">
+		<tr class="dwa">
+			<td class="dwa">Joe</td>
+			<td class="dwa">Swanson</td>
+			<td class="dwa">$300</td>
+		</tr>
+		<tr class="dwa">
+			<td class="dwa">Cleveland</td>
+			<td class="dwa">Brown</td>
+			<td class="dwa">$250</td>
+		</tr>
+	</table>
+	<hr />	
+	4 i 5. Utwórz tabelę z klasa "trzy" (kopiujac tabelę "dwa")
+	Skopiuj wszystkie deklaracje z tabeli z klasa "dwa" i zamień je na "trzy".
+	Dodatkowo w wierszu dodaj KOLOR fioletowy WIERSZY PARZYSTYCH
+	oraz kolor szary WIERSZY NIEPARZYSTYCH po najechaniu mysza na wiersze.
+	Po najechaniu mysza zobaczysz efekt.
+	<table class="trzy">
+		<tr class="trzy">
+			<th class="trzy">Pierwsze Imię</th>
+			<th class="trzy">Nazwisko</th>
+			<th class="trzy">Zarobek na godz.</th>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Peter</td>
+			<td class="trzy">Griffin</td>
+			<td class="trzy">$100</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Lois</td>
+			<td class="trzy">Griffin</td>
+			<td class="trzy">$150</td>
+		</tr class="trzy">
+		<tr class="trzy">
+			<td class="trzy">Joe</td>
+			<td class="trzy">Swanson</td>
+			<td class="trzy">$300</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Cleveland</td>
+			<td class="trzy">Brown</td>
+			<td class="trzy">$250</td>
+		</tr>
+	</table>
+	
+	<hr />
+	
+	<table class="cztery">
+		<tr class="cztery">
+			<th class="cztery">Pierwsze Imię</th>
+			<th class="cztery">Nazwisko</th>
+			<th class="cztery">Zarobek na godz.</th>
+		</tr>
+		<tr class="cztery">
+			<td class="cztery">Peter</td>
+			<td class="cztery">Griffin</td>
+			<td class="cztery">$100</td>
+		</tr>
+		<tr class="cztery">
+			<td class="cztery">Lois</td>
+			<td class="cztery">Griffin</td>
+			<td class="cztery">$150</td>
+		</tr class="cztery">
+		<tr class="cztery">
+			<td class="cztery">Joe</td>
+			<td class="cztery">Swanson</td>
+			<td class="cztery">$300</td>
+		</tr>
+		<tr class="cztery">
+			<td class="cztery">Cleveland</td>
+			<td class="cztery">Brown</td>
+			<td class="cztery">$250</td>
+		</tr>
+	</table>
+	<hr />
+	<p>6. Utwórz tabelę z klasa "cztery", składajaca się z 2 wierszy i 2 kolumn. Szerokosć 50 %
+	Tylko główna czesć tabeli ma obramowanie: table { 1px solid czarne }.
+	th w tabeli ma klasę - deklaracja czcionki w kolorze czerwonym oraz tła żółtego.
+	<tt color="gray">W formie przypomnienia - aby th i td mialo obramowanie należałoby je zadeklarować.</tt></p>
+	
+	<table class="cztery1">
+		<tr class="cztery1">
+			<th class="cztery1">1</th>
+			<th class="cztery1">2</th>
+		</tr class="cztery1">
+		<tr>
+			<td class="cztery1">a</td>
+			<td class="cztery1">b</td>
+		</tr>
+	</table>
+	<hr />
+	<p>7. Utwórz tabelę z klasa "piec", składajaca się z 2 wierszy i 2 kolumn. Szerokosć 50 %
+		Tabela oraz komórki tabeli maja obramowanie: table * { 1px solid czarne }.
+		W celu zmiany wiersza nagłówkowego - wykorzystaj th z klasą z zadania wyższego.
+		th i td dziedziczą obramowanie od tabeli</p>
+
+	<table class="piec">
+		<tr class="piec">
+			<th class="piec">I</th>
+			<th class="piec">II</th>
+		</tr class="piec">
+		<tr>
+			<td class="piec">i</td>
+			<td class="piec">ii</td>
+		</tr>
+	</table>
+	<hr />
+	<p>8. Utwórz tabelę z klasa "noc".
+		W tabeli występują odstępy pomiędzy komórki - 10 px
+		oraz zadeklarowane są dwa rożne style ramek w komórkach (inset i outset).
+		Kolory dowolne. Wiersz nagłówkowy ma mieć tło.
+		</p>
+
+	<table class="noc">
+		<tr class="noc">
+			<th class="noc">Pracownik</th>
+			<th class="noc">Data<br /> rozpoczecia</th>
+			<th class="noc">Data<br /> zakonczenia</th>
+			<th class="noc">Staż</th>
+		</tr class="noc">
+		<trclass="noc">
+			<td class="noc">Bartosz R.</td>
+			<td class="noc">12/04/2000</td>
+			<td class="noc">02/02/2011</td>
+			<td class="noc">11 lat</td>
+		</tr>
+		<tr class="noc">
+			<td class="noc">Tomasz D</td>
+			<td class="noc">07/06/2009</td>
+			<td class="noc">do teraz</td>
+		</tr>
+	</table>
+	<hr />
+	9. Utwórz tabelę z klasa "pink".
+	Wprowadz collapse w deklaracji krawędzi komórek.
+	Należy wstawić pusta wyswietlajaca się komórkę.
+	<table class="pink">
+		<tr>
+			<th class="pink"> Pracownik </th>
+			<th class="pink"> Data rozpoczecia </th>
+			<th class="pink"> Data zakonczenia </th>
+		</tr>
+		<tr>
+			<td class="pink"> Bartosz R. </td>
+			<td class="pink"> 12/04/2000 </td>
+			<td class="pink"> 02/02/2011 </td>
+		</tr>
+		<tr>
+			<td class="pink"> Tomasz D </td>
+			<td class="pink"> 07/06/2009 </td>
+			<td class="pink"> do teraz </td>
+		</tr>
+		<tr>
+			<td class="pink"> Stefan H </td>
+			<td class="pink"> 11/09/2012 </td>
+		</tr>
+	</table> 
+	<hr />
+	10. Zastosowano caption - odswież w Mozilla Firefox. Wykonaj podobna tabelę.
+
+	<table class="caption">
+		<caption class="caption">Schemat<br /> kontroli<br /> pracowników<br /></caption>
+		<tr class="caption">
+			<th class="caption">Pracownik</th>
+			<th class="caption">Data rozpoczecia</th>
+			<th class="caption">Data zakonczenia</th>
+		</tr>
+		<tr class="caption">
+			<td class="caption">Bartosz R.</td>
+			<td class="caption">12/04/2000</td>
+			<td class="caption">02/02/2011</td>
+		</tr>
+		<tr class="caption">
+			<td class="caption">Tomasz D</td>
+			<td class="caption">07/06/2009</td>
+			<td class="caption">do teraz</td>
+		</tr>
+	</table>
+	<hr />
+	11. Zastosowano caption - odswież w Mozilla Firefox. Wykonaj podobna tabelę.
+
+	<table class="caption">
+		<caption class="caption">Kto się kiedy urodził - czas na imprezkę</caption>
+		<tr class="caption">
+			<th class="caption">Imie</th>
+			<th class="caption">Dzień i miesiąc urodzenia</th>
+			<th class="caption">Wiek</th>
+		</tr>
+		<tr>
+			<td class="caption">Kubus</td>
+			<td class="caption">20 I</td>
+			<td class="caption">8</td>
+		</tr>
+		<tr>
+			<td class="caption">Baisa</td>
+			<td class="caption">30 IX</td>
+			<td class="caption">*</td>
+		</tr>
+		<tr>
+			<td class="caption">Michal</td>
+			<td class="caption">24 IV</td>
+			<td class="caption">28</td>
+		</tr>
+		<tr>
+			<td class="caption">Joasia</td>
+			<td class="caption">13 IV</td>
+			<td class="caption">*</td>
+		</tr>
+		<tr>
+			<td class="caption">Krzysiu</td>
+			<td class="caption">25 VIII</td>
+			<td class="caption">62</td>
+		</tr>
+	</table>
+	<hr />
+	12. Postaraj się wykonać podobna tabelę - która zagnieżdża tabelę w tabeli.
+	<table class="k121">
+		<tr>
+			<th class="k121">Pracownik</th>
+			<th class="k121">Data rozpoczecia</th>
+			<th class="k121">Data zakonczenia</th>
+		</tr>
+		<tr>
+			<td class="k121">Rudolf</td>
+			<td class="k121">12/04/2000</td>
+			<td class="k121">02/02/2011</td>
+		</tr>
+		<tr>
+			<td class="k121">Eryk</td>
+			<td colspan="2" rowspan="2">
+				<table class="k122">
+					<tr>
+						<th class="k122">Pracownik</th>
+						<th class="k122">Data rozpoczecia</th>
+					</tr>
+					<tr>
+						<td class="k122">Adam R.</td>
+						<td class="k122">12/04/2000</td>
+					</tr>
+					<tr>
+						<td class="k122">Tomasz D.</td>
+						<td class="k122">07/06/2009</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="k121">Bartosz</td>
+		</tr>
+		<tr>
+			<th class="k121">Pracownik</th>
+			<th class="k121">Data rozpoczecia</th>
+			<th class="k121">Data zakonczenia</th>
+		</tr>
+	</table>
+	</div>
+	<div style="background-color:yellow; clear:both;"><center> &copy; K.N, October 2024
+	</center> </div>
+</body>
+</html>
