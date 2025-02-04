@@ -1,4 +1,4 @@
-table.kl1, td.kl1 {
+table.kl1 table.kl1* {
 	border: 1px solid blue;
 	border-collapse: collapse;
 }
