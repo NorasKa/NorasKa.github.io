@@ -24,6 +24,7 @@ td.zwykle {
 }
 table.dwa, table.trzy, table.cztery{
 	border-collapse: collapse;
+	width: 80%;
 }
 th.dwa, td.dwa {
 	border-top: 1px aqua solid;
@@ -93,6 +94,7 @@ td.noc, table.noc {
 	color: black;
 	border: 3px maroon outset;
 	padding: 10px;
+	width: 50%;
 }
 table.pink {
 	width: 50%;
@@ -138,6 +140,7 @@ table.k121 {
 	border: 1px red solid;
 	background-color: navy;
 	color: white;
+	width: 70%;
 }
 th.k121 {
 	background-color: red;
@@ -149,6 +152,7 @@ td.k121 {
 table.k122 {
 	border: 3px red solid;
 	width: 100%;
+	margin-left: 0px;
 	border-spacing: 5px;
 }
 th.k122 {
