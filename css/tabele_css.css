@@ -1,6 +1,12 @@
-table.kl1 table.kl1* {
+table, p {
+	margin-left: 15px;
+}
+
+table.kl1, td.kl1 {
+	text-align: left;
 	border: 1px solid blue;
 	border-collapse: collapse;
+	padding: 5px 20px 5px 0px;
 }
 table.one {
 	width: 80%;
