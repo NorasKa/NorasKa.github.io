@@ -163,3 +163,17 @@ td.k122 {
 	background-color: #0066ff;
 	border: 1px aqua solid;
 }
+table.dwa1 {
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: auto;
+	display: block;
+}
+th.dwa1, td.dwa1 {
+	padding: 8px;
+	border-top: 1px solid aqua
+}
+th.dwa1:hover, td.dwa1:hover {
+	background-color:aqua;
+}
