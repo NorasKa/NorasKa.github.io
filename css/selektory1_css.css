@@ -1,0 +1,9 @@
+div#id21{background: linear-gradient(to bottom right,#888,#aaa)}
+h4{font-weight:lighter;}
+h1{font-size:16px;}
+h6{font-size:10px;line-height:0.5cm;}
+div span{color:blue;font-size:16pt;}
+h3 > ins{color:green;font-size:16pt;}
+div + i{color:red;font-size:16pt;}
+h4 ~ i{color:fuchsia;font-size:16pt;}
+h4 cite{color:red;}
