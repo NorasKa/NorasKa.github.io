@@ -1,0 +1,7 @@
+*::selection{background-color:fuchsia;color:aqua;}
+.id0::first-line{background-color:yellow;font-family:ravie;font-size:18px;text-decoration:underline;}.id0{font-weight:bold;}
+.id1::first-letter{border:1px solid fuchsia;color:fuchsia;background-color:aqua;font-size:90px;}
+#element{border:1px solid red; padding:20px;}
+#element:before{content: "^-^"; color:white;background-color:#09c;padding:10px;border-radius: 25px;margin:0px;}
+#element:after{content: "DAMY RADĘ TO ZROBIĆ";color:white;background-color:#0c0;padding:10px;}
+.lista1::marker{color:red;font-size:23px;}.lista1{list-style-type:circle;}
